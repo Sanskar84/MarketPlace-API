@@ -51,6 +51,10 @@
         
     });
 
+    route.get("/dashboard",async(req,res)=>{
+        res.send("hello from dashboard");
+    })
+
     
 
     
